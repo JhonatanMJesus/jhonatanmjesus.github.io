@@ -1,0 +1,80 @@
+* {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background-color: #051119;
+    margin: 0;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #D9D9D9;
+    padding: 0px;
+}
+.nav {
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "inter";
+    letter-spacing: 3px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-family: "Indie Flower", cursive;
+    font-size: 36px;
+    color: black;
+    z-index: 0;
+}
+main {
+    display: grid;
+    margin-top: 7%;
+    color: white;
+}
+
+span {
+    font-size: 48px;
+    font-family: "inter";
+    font-family: "inria sans";
+}
+
+.nome {
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.descricao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.texto {
+    border: solid 1px grey;
+    padding: 48px;
+}
+
+img {
+    border: solid #5d5fef 5px;
+    border-radius: 50%;
+}
