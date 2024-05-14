@@ -47,7 +47,7 @@ header {
 }
 main {
     display: grid;
-    margin-top: 7%;
+    /* margin-top: 7%; */
     color: white;
 }
 
@@ -62,11 +62,38 @@ span {
     font-size: 72px;
 }
 
-.descricao {
+.inicio {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    height: 100vh;
+    /* border: 5px solid black; */
+}
+
+.sobre {
+    /* background-color: pink; */
+    position: relative;
+    height: 100vh;
+}
+
+
+.sobre img {
+    width: 700px;
+}
+
+.texto-sobre {
+    position: absolute;
+    left: 300px;
+    top: 180px;
+    font-size: 72px;
+}
+
+.about-me p {
+    width: 600px;
+    letter-spacing: 6px;
+    font-size: 22px;
+    border: 1px white solid;
 }
 
 .texto {
@@ -74,7 +101,7 @@ span {
     padding: 48px;
 }
 
-img {
+.inicio img {
     border: solid #5d5fef 5px;
     border-radius: 50%;
 }
