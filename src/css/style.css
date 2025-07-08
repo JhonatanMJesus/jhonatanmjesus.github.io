@@ -1,4 +1,13 @@
-.borda {
+* {
+    scroll-behavior: smooth;
+}
+
+.borda-dark {
     border: 2px solid white;
+    max-height: 86px;
+}
+
+.borda-light {
+    border: 2px solid black;
     max-height: 86px;
 }
